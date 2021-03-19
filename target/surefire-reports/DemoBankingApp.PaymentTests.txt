@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: DemoBankingApp.PaymentTests
+-------------------------------------------------------------------------------
+Tests run: 33, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 39.636 s - in DemoBankingApp.PaymentTests

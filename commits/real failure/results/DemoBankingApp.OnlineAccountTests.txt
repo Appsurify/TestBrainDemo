@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: DemoBankingApp.OnlineAccountTests
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 27.045 s <<< FAILURE! - in DemoBankingApp.OnlineAccountTests
+OnlineAccountTest2  Time elapsed: 3.011 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unable to open Online Accounts
+	at DemoBankingApp.OnlineAccountTests.OnlineAccountTest2(OnlineAccountTests.java:42)
+
+OnlineAccountTest3  Time elapsed: 3.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unable to open Online Accounts
+	at DemoBankingApp.OnlineAccountTests.OnlineAccountTest3(OnlineAccountTests.java:52)
+
+OnlineAccountTest5  Time elapsed: 3.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unable to open Online Accounts
+	at DemoBankingApp.OnlineAccountTests.OnlineAccountTest5(OnlineAccountTests.java:75)
+

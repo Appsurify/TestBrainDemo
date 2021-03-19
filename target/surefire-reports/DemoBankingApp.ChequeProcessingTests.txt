@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: DemoBankingApp.ChequeProcessingTests
+-------------------------------------------------------------------------------
+Tests run: 63, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.011 s - in DemoBankingApp.ChequeProcessingTests

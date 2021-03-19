@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: DemoBankingApp.ACHPaymentTests
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.935 s - in DemoBankingApp.ACHPaymentTests

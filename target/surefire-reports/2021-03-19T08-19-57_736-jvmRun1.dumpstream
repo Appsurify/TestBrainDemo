@@ -1,0 +1,425 @@
+# Created at 2021-03-19T08:20:02.858
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+
+# Created at 2021-03-19T08:20:03.809
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[5],null,null,null
+
+
+# Created at 2021-03-19T08:20:03.812
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[6],null,null,null
+
+
+# Created at 2021-03-19T08:20:04.814
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[6],null,null,null
+
+
+# Created at 2021-03-19T08:20:04.816
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[7],null,null,null
+
+
+# Created at 2021-03-19T08:20:05.817
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[7],null,null,null
+
+
+# Created at 2021-03-19T08:20:05.819
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[8],null,null,null
+
+
+# Created at 2021-03-19T08:20:06.821
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[8],null,null,null
+
+
+# Created at 2021-03-19T08:20:06.823
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[9],null,null,null
+
+
+# Created at 2021-03-19T08:20:07.826
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[9],null,null,null
+
+
+# Created at 2021-03-19T08:20:07.828
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[10],null,null,null
+
+
+# Created at 2021-03-19T08:20:08.829
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[10],null,null,null
+
+
+# Created at 2021-03-19T08:20:08.831
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[11],null,null,null
+
+
+# Created at 2021-03-19T08:20:09.833
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[11],null,null,null
+
+
+# Created at 2021-03-19T08:20:09.834
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[12],null,null,null
+
+
+# Created at 2021-03-19T08:20:10.838
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[12],null,null,null
+
+
+# Created at 2021-03-19T08:20:10.840
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[13],null,null,null
+
+
+# Created at 2021-03-19T08:20:11.843
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[13],null,null,null
+
+
+# Created at 2021-03-19T08:20:11.845
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[14],null,null,null
+
+
+# Created at 2021-03-19T08:20:12.846
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[14],null,null,null
+
+
+# Created at 2021-03-19T08:20:12.848
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[15],null,null,null
+
+
+# Created at 2021-03-19T08:20:13.850
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[15],null,null,null
+
+
+# Created at 2021-03-19T08:20:13.852
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[16],null,null,null
+
+
+# Created at 2021-03-19T08:20:14.854
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[16],null,null,null
+
+
+# Created at 2021-03-19T08:20:14.856
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[17],null,null,null
+
+
+# Created at 2021-03-19T08:20:15.858
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[17],null,null,null
+
+
+# Created at 2021-03-19T08:20:15.860
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[18],null,null,null
+
+
+# Created at 2021-03-19T08:20:16.862
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[18],null,null,null
+
+
+# Created at 2021-03-19T08:20:16.863
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[19],null,null,null
+
+
+# Created at 2021-03-19T08:20:17.866
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[19],null,null,null
+
+
+# Created at 2021-03-19T08:20:17.868
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[20],null,null,null
+
+
+# Created at 2021-03-19T08:20:18.871
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[20],null,null,null
+
+
+# Created at 2021-03-19T08:20:18.872
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[21],null,null,null
+
+
+# Created at 2021-03-19T08:20:19.874
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[21],null,null,null
+
+
+# Created at 2021-03-19T08:20:19.875
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[22],null,null,null
+
+
+# Created at 2021-03-19T08:20:20.879
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[22],null,null,null
+
+
+# Created at 2021-03-19T08:20:20.881
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[23],null,null,null
+
+
+# Created at 2021-03-19T08:20:21.882
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[23],null,null,null
+
+
+# Created at 2021-03-19T08:20:21.884
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[24],null,null,null
+
+
+# Created at 2021-03-19T08:20:22.886
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[24],null,null,null
+
+
+# Created at 2021-03-19T08:20:22.887
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[25],null,null,null
+
+
+# Created at 2021-03-19T08:20:23.890
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[25],null,null,null
+
+
+# Created at 2021-03-19T08:20:23.892
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[26],null,null,null
+
+
+# Created at 2021-03-19T08:20:24.894
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[26],null,null,null
+
+
+# Created at 2021-03-19T08:20:24.896
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[27],null,null,null
+
+
+# Created at 2021-03-19T08:20:25.899
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[27],null,null,null
+
+
+# Created at 2021-03-19T08:20:25.901
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[28],null,null,null
+
+
+# Created at 2021-03-19T08:20:26.903
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[28],null,null,null
+
+
+# Created at 2021-03-19T08:20:26.904
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[29],null,null,null
+
+
+# Created at 2021-03-19T08:20:27.906
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[29],null,null,null
+
+
+# Created at 2021-03-19T08:20:27.908
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[30],null,null,null
+
+
+# Created at 2021-03-19T08:20:28.909
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[30],null,null,null
+
+
+# Created at 2021-03-19T08:20:28.910
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[31],null,null,null
+
+
+# Created at 2021-03-19T08:20:29.913
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[31],null,null,null
+
+
+# Created at 2021-03-19T08:20:29.916
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[32],null,null,null
+
+
+# Created at 2021-03-19T08:20:30.922
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[32],null,null,null
+
+
+# Created at 2021-03-19T08:20:30.924
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[33],null,null,null
+
+
+# Created at 2021-03-19T08:20:31.928
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[33],null,null,null
+
+
+# Created at 2021-03-19T08:20:31.931
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[34],null,null,null
+
+
+# Created at 2021-03-19T08:20:32.933
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[34],null,null,null
+
+
+# Created at 2021-03-19T08:20:32.934
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[35],null,null,null
+
+
+# Created at 2021-03-19T08:20:33.937
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[35],null,null,null
+
+
+# Created at 2021-03-19T08:20:33.939
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTest[36],null,null,null
+
+
+# Created at 2021-03-19T08:20:34.940
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTest[36],null,null,null
+
+
+# Created at 2021-03-19T08:20:34.942
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTestDummyOne,null,null,null
+
+
+# Created at 2021-03-19T08:20:35.946
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTestDummyOne,null,null,null
+
+
+# Created at 2021-03-19T08:20:35.947
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTestDummySix,null,null,null
+
+
+# Created at 2021-03-19T08:20:36.950
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTestDummySix,null,null,null
+
+
+# Created at 2021-03-19T08:20:36.952
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTestDummyTwo,null,null,null
+
+
+# Created at 2021-03-19T08:20:37.955
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTestDummyTwo,null,null,null
+
+
+# Created at 2021-03-19T08:20:37.956
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTestDummyFive,null,null,null
+
+
+# Created at 2021-03-19T08:20:38.957
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTestDummyFive,null,null,null
+
+
+# Created at 2021-03-19T08:20:38.959
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTestDummyFour,null,null,null
+
+
+# Created at 2021-03-19T08:20:39.961
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTestDummyFour,null,null,null
+
+
+# Created at 2021-03-19T08:20:39.962
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTestDummySeven,null,null,null
+
+
+# Created at 2021-03-19T08:20:40.964
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTestDummySeven,null,null,null
+
+
+# Created at 2021-03-19T08:20:40.965
+Unexpected IOException: 5,1,DemoBankingApp.AccountTests,AccountTestDummyThree,null,null,null
+
+
+# Created at 2021-03-19T08:20:41.966
+Unexpected IOException: 6,1,DemoBankingApp.AccountTests,AccountTestDummyThree,null,null,null
+
+
+# Created at 2021-03-19T08:20:41.969
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,DemoBankingApp.AccountTests,null,null,null
+
+
+# Created at 2021-03-19T08:20:41.970
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,DemoBankingApp.ACHPaymentsTests,null,null,null
+
+
+# Created at 2021-03-19T08:20:41.971
+Unexpected IOException: 5,1,DemoBankingApp.ACHPaymentsTests,ACHPaymentsTestDummyFive,null,null,null
+
+
+# Created at 2021-03-19T08:20:43.225
+Unexpected IOException: 6,1,DemoBankingApp.ACHPaymentsTests,ACHPaymentsTestDummyFive,null,null,null
+
+
+# Created at 2021-03-19T08:20:43.226
+Unexpected IOException: 5,1,DemoBankingApp.ACHPaymentsTests,ACHPaymentsTestDummyFour,null,null,null
+
+
+# Created at 2021-03-19T08:20:44.479
+Unexpected IOException: 6,1,DemoBankingApp.ACHPaymentsTests,ACHPaymentsTestDummyFour,null,null,null
+
+
+# Created at 2021-03-19T08:20:44.481
+Unexpected IOException: 5,1,DemoBankingApp.ACHPaymentsTests,ACHPaymentsTest[1],null,null,null
+
+
+# Created at 2021-03-19T08:20:45.732
+Unexpected IOException: 6,1,DemoBankingApp.ACHPaymentsTests,ACHPaymentsTest[1],null,null,null
+
+
+# Created at 2021-03-19T08:20:45.733
+Unexpected IOException: 5,1,DemoBankingApp.ACHPaymentsTests,ACHPaymentsTestDummyOne,null,null,null
+
+
+# Created at 2021-03-19T08:20:46.986
+Unexpected IOException: 6,1,DemoBankingApp.ACHPaymentsTests,ACHPaymentsTestDummyOne,null,null,null
+
+
+# Created at 2021-03-19T08:20:46.987
+Unexpected IOException: 5,1,DemoBankingApp.ACHPaymentsTests,ACHPaymentsTestDummySix,null,null,null
+
+
+# Created at 2021-03-19T08:20:48.240
+Unexpected IOException: 6,1,DemoBankingApp.ACHPaymentsTests,ACHPaymentsTestDummySix,null,null,null
+
+
+# Created at 2021-03-19T08:20:48.241
+Unexpected IOException: 5,1,DemoBankingApp.ACHPaymentsTests,ACHPaymentsTestDummyTwo,null,null,null
+
+
+# Created at 2021-03-19T08:20:49.493
+Unexpected IOException: 6,1,DemoBankingApp.ACHPaymentsTests,ACHPaymentsTestDummyTwo,null,null,null
+
+
+# Created at 2021-03-19T08:20:49.495
+Unexpected IOException: 5,1,DemoBankingApp.ACHPaymentsTests,ACHPaymentsTestDummySeven,null,null,null
+
+
+# Created at 2021-03-19T08:20:50.747
+Unexpected IOException: 6,1,DemoBankingApp.ACHPaymentsTests,ACHPaymentsTestDummySeven,null,null,null
+
+
+# Created at 2021-03-19T08:20:50.748
+Unexpected IOException: 5,1,DemoBankingApp.ACHPaymentsTests,ACHPaymentsTestDummyThree,null,null,null
+
+
+# Created at 2021-03-19T08:20:52.001
+Unexpected IOException: 6,1,DemoBankingApp.ACHPaymentsTests,ACHPaymentsTestDummyThree,null,null,null
+
+
+# Created at 2021-03-19T08:20:52.002
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,DemoBankingApp.ACHPaymentsTests,null,null,null
+
+
+# Created at 2021-03-19T08:20:52.003
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,DemoBankingApp.BranchConfigurationTests,null,null,null
+
+
+# Created at 2021-03-19T08:20:52.004
+Unexpected IOException: 5,1,DemoBankingApp.BranchConfigurationTests,BranchConfigurationTest[1],null,null,null
+
+
+# Created at 2021-03-19T08:20:53.757
+Unexpected IOException: 6,1,DemoBankingApp.BranchConfigurationTests,BranchConfigurationTest[1],null,null,null
+
+
+# Created at 2021-03-19T08:20:53.758
+Unexpected IOException: 5,1,DemoBankingApp.BranchConfigurationTests,BranchConfigurationTest[2],null,null,null
+
+
+# Created at 2021-03-19T08:20:55.511
+Unexpected IOException: 6,1,DemoBankingApp.BranchConfigurationTests,BranchConfigurationTest[2],null,null,null
+
+
+# Created at 2021-03-19T08:20:55.512
+Unexpected IOException: 5,1,DemoBankingApp.BranchConfigurationTests,BranchConfigurationTest[3],null,null,null
+
+
+# Created at 2021-03-19T08:20:57.265
+Unexpected IOException: 6,1,DemoBankingApp.BranchConfigurationTests,BranchConfigurationTest[3],null,null,null
+
+
+# Created at 2021-03-19T08:20:57.266
+Unexpected IOException: 5,1,DemoBankingApp.BranchConfigurationTests,BranchConfigurationTest[4],null,null,null
+
+

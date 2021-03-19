@@ -1,0 +1,14 @@
+version: 2.1
+
+jobs:
+  build:
+    docker: 
+      - image: circleci/openjdk:8-jdk
+    steps:
+      - checkout # check out the code in the project directory
+      #- run: mvn test
+      - run: chmod +x RunTestsWithAppsurify.sh GetAndRunTests.sh PushResultsToAppsurify.sh GetResultsFromAppsurify.sh
+      - run: ./RunTestsWithAppsurify.sh --url "https://demo.appsurify.com" --apikey "MTU6a3Q1LUlTU3ZEcktFSTFhQUNoYy1DU3pidkdz" --project "Demo GoodRX" --testsuite "Selenium" --report "./results/" --reporttype "directory" --teststorun "high" --startrun "mvn -Dtest=" --fullname "true" --fullnameseparator "#" --endrun " test" --testseparator ","
+      
+
+
