@@ -6,7 +6,7 @@ import SavingsAccount.*;
  * Created by james on 24/05/2019.
  */
 public class SavingsAccountInterest {
-    int i=1;
+    int i=2;
     public String dummyMethod(String input){
         return input;
     }
