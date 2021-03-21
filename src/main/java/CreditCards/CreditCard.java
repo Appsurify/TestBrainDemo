@@ -4,7 +4,8 @@ package CreditCards;
  * Created by james on 24/05/2019.
  */
 public class CreditCard{
-    int i=2;
+    //add comment for edit
+    int i=3;
     public String dummyMethod(String input){
         return input;
     }
