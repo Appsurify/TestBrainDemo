@@ -36,10 +36,6 @@ class OnlineTransfersTests {
 		}
 	}
 
-	@RepeatedTest(value = 5, name = "{displayName}")
-	public void OnlineTransfersTest() {
-		addDelay();
-	}
 
 
 	@Test

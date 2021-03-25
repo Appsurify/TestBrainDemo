@@ -36,10 +36,6 @@ class CreditCardInterestTests {
 		}
 	}
 
-	@RepeatedTest(value = 37, name = "{displayName}")
-	public void CreditCardInterestRatesTest() {
-		addDelay();
-	}
 
 
 	@Test

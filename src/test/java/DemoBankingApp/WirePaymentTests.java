@@ -37,11 +37,6 @@ class WirePaymentsTests {
 		}
 	}
 
-	@RepeatedTest(value = 1, name = "{displayName}")
-	public void WirePaymentsTest() {
-		addDelay();
-	}
-
 
 	@Test
 	public void WirePaymentsTestDummyOne(){

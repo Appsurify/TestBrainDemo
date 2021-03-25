@@ -4,7 +4,559 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3db7145-1ef9-4001-b0f4-48eadfa0fdbc" name="Default" comment="" />
+    <list default="true" id="b3db7145-1ef9-4001-b0f4-48eadfa0fdbc" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/DemoBankingApp/CreditCardTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/DemoBankingApp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/GetAndRunTests.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/GetResultsFromAppsurify.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/PushResultsToAppsurify.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/RunTestsWithAppsurify.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/old results/TEST-com.example.project.Area10Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/old results/TEST-com.example.project.Area11Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/old results/TEST-com.example.project.Area12Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/old results/TEST-com.example.project.Area13Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/old results/TEST-com.example.project.Area14Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/old results/TEST-com.example.project.Area15Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/old results/TEST-com.example.project.Area16Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/old results/TEST-com.example.project.Area17Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/old results/TEST-com.example.project.Area18Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/old results/TEST-com.example.project.Area19Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/old results/TEST-com.example.project.Area1Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/old results/TEST-com.example.project.Area20Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/old results/TEST-com.example.project.Area2Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/old results/TEST-com.example.project.Area3Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/old results/TEST-com.example.project.Area4Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/old results/TEST-com.example.project.Area5Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/old results/TEST-com.example.project.Area6Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/old results/TEST-com.example.project.Area7Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/old results/TEST-com.example.project.Area8Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/old results/TEST-com.example.project.Area9Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/results/DemoBankingApp.OnlineAccountTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/results/TEST-DemoBankingApp.OnlineAccountTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/main/java/Accounts/CheckingAccount/File5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/main/java/Accounts/File2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/main/java/Accounts/JointAccount/File17.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/main/java/Accounts/OnlineAccounts/File1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/main/java/Accounts/OnlineAccounts/File1a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/main/java/BranchConfiguration/File6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/main/java/ChequeProcessing/File20.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/main/java/CreditCardApplication/File19.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/main/java/CreditCardInterestTests/File18.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/main/java/Navigation/File13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/main/java/Payments/ACHPayments/File4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/main/java/Payments/File3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/main/java/Payments/OnlinePayments/File14.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/main/java/Payments/OnlinePayments/MobilePaymentsTests/File15.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/main/java/Payments/WirePayments/File7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/main/java/SavingsAccount/File10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/main/java/SavingsAccount/SavingsAccountInterest/File9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/main/java/Transfers/File12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/main/java/Transfers/OnlineTransfters/File11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/main/java/User/File8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/main/java/User/Login/File16.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/test/java/DemoBankingApp/ACHPaymentTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/test/java/DemoBankingApp/AccountTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/test/java/DemoBankingApp/BranchConfigurationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/test/java/DemoBankingApp/CheckingAccountTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/test/java/DemoBankingApp/ChequeProcessingTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/test/java/DemoBankingApp/CreditCardApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/test/java/DemoBankingApp/CreditCardInterestTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/test/java/DemoBankingApp/JointAccountTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/test/java/DemoBankingApp/LoginTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/test/java/DemoBankingApp/MobilePaymentTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/test/java/DemoBankingApp/NavigationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/test/java/DemoBankingApp/OnlineAccountTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/test/java/DemoBankingApp/OnlinePaymentTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/test/java/DemoBankingApp/OnlineTransfersTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/test/java/DemoBankingApp/PaymentTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/test/java/DemoBankingApp/SavingAccountInterestTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/test/java/DemoBankingApp/SavingsAccountTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/test/java/DemoBankingApp/TransfersTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/test/java/DemoBankingApp/UserTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/src/test/java/DemoBankingApp/WirePaymentTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/target/surefire-reports/DemoBankingApp.OnlineAccountTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/all passing/target/surefire-reports/TEST-DemoBankingApp.OnlineAccountTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/DemoBankingApp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/GetAndRunTests.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/GetResultsFromAppsurify.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/PushResultsToAppsurify.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/RunTestsWithAppsurify.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/old results/TEST-com.example.project.Area10Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/old results/TEST-com.example.project.Area11Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/old results/TEST-com.example.project.Area12Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/old results/TEST-com.example.project.Area13Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/old results/TEST-com.example.project.Area14Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/old results/TEST-com.example.project.Area15Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/old results/TEST-com.example.project.Area16Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/old results/TEST-com.example.project.Area17Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/old results/TEST-com.example.project.Area18Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/old results/TEST-com.example.project.Area19Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/old results/TEST-com.example.project.Area1Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/old results/TEST-com.example.project.Area20Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/old results/TEST-com.example.project.Area2Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/old results/TEST-com.example.project.Area3Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/old results/TEST-com.example.project.Area4Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/old results/TEST-com.example.project.Area5Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/old results/TEST-com.example.project.Area6Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/old results/TEST-com.example.project.Area7Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/old results/TEST-com.example.project.Area8Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/old results/TEST-com.example.project.Area9Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/results/DemoBankingApp.OnlineAccountTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/results/TEST-DemoBankingApp.OnlineAccountTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/main/java/Accounts/CheckingAccount/File5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/main/java/Accounts/File2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/main/java/Accounts/JointAccount/File17.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/main/java/Accounts/OnlineAccounts/File1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/main/java/Accounts/OnlineAccounts/File1a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/main/java/BranchConfiguration/File6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/main/java/ChequeProcessing/File20.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/main/java/CreditCardApplication/File19.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/main/java/CreditCardInterestTests/File18.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/main/java/Navigation/File13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/main/java/Payments/ACHPayments/File4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/main/java/Payments/File3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/main/java/Payments/OnlinePayments/File14.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/main/java/Payments/OnlinePayments/MobilePaymentsTests/File15.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/main/java/Payments/WirePayments/File7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/main/java/SavingsAccount/File10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/main/java/SavingsAccount/SavingsAccountInterest/File9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/main/java/Transfers/File12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/main/java/Transfers/OnlineTransfters/File11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/main/java/User/File8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/main/java/User/Login/File16.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/test/java/DemoBankingApp/ACHPaymentTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/test/java/DemoBankingApp/AccountTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/test/java/DemoBankingApp/BranchConfigurationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/test/java/DemoBankingApp/CheckingAccountTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/test/java/DemoBankingApp/ChequeProcessingTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/test/java/DemoBankingApp/CreditCardApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/test/java/DemoBankingApp/CreditCardInterestTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/test/java/DemoBankingApp/JointAccountTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/test/java/DemoBankingApp/LoginTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/test/java/DemoBankingApp/MobilePaymentTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/test/java/DemoBankingApp/NavigationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/test/java/DemoBankingApp/OnlineAccountTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/test/java/DemoBankingApp/OnlinePaymentTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/test/java/DemoBankingApp/OnlineTransfersTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/test/java/DemoBankingApp/PaymentTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/test/java/DemoBankingApp/SavingAccountInterestTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/test/java/DemoBankingApp/SavingsAccountTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/test/java/DemoBankingApp/TransfersTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/test/java/DemoBankingApp/UserTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/src/test/java/DemoBankingApp/WirePaymentTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/target/surefire-reports/DemoBankingApp.OnlineAccountTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/flaky/target/surefire-reports/TEST-DemoBankingApp.OnlineAccountTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/DemoBankingApp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/GetAndRunTests.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/GetResultsFromAppsurify.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/PushResultsToAppsurify.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/RunTestsWithAppsurify.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/old results/TEST-com.example.project.Area10Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/old results/TEST-com.example.project.Area11Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/old results/TEST-com.example.project.Area12Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/old results/TEST-com.example.project.Area13Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/old results/TEST-com.example.project.Area14Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/old results/TEST-com.example.project.Area15Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/old results/TEST-com.example.project.Area16Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/old results/TEST-com.example.project.Area17Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/old results/TEST-com.example.project.Area18Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/old results/TEST-com.example.project.Area19Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/old results/TEST-com.example.project.Area1Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/old results/TEST-com.example.project.Area20Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/old results/TEST-com.example.project.Area2Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/old results/TEST-com.example.project.Area3Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/old results/TEST-com.example.project.Area4Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/old results/TEST-com.example.project.Area5Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/old results/TEST-com.example.project.Area6Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/old results/TEST-com.example.project.Area7Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/old results/TEST-com.example.project.Area8Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/old results/TEST-com.example.project.Area9Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/results/DemoBankingApp.OnlineAccountTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/results/TEST-DemoBankingApp.OnlineAccountTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/main/java/Accounts/CheckingAccount/File5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/main/java/Accounts/File2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/main/java/Accounts/JointAccount/File17.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/main/java/Accounts/OnlineAccounts/File1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/main/java/Accounts/OnlineAccounts/File1a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/main/java/BranchConfiguration/File6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/main/java/ChequeProcessing/File20.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/main/java/CreditCardApplication/File19.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/main/java/CreditCardInterestTests/File18.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/main/java/Navigation/File13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/main/java/Payments/ACHPayments/File4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/main/java/Payments/File3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/main/java/Payments/OnlinePayments/File14.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/main/java/Payments/OnlinePayments/MobilePaymentsTests/File15.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/main/java/Payments/WirePayments/File7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/main/java/SavingsAccount/File10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/main/java/SavingsAccount/SavingsAccountInterest/File9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/main/java/Transfers/File12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/main/java/Transfers/OnlineTransfters/File11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/main/java/User/File8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/main/java/User/Login/File16.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/test/java/DemoBankingApp/ACHPaymentTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/test/java/DemoBankingApp/AccountTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/test/java/DemoBankingApp/BranchConfigurationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/test/java/DemoBankingApp/CheckingAccountTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/test/java/DemoBankingApp/ChequeProcessingTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/test/java/DemoBankingApp/CreditCardApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/test/java/DemoBankingApp/CreditCardInterestTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/test/java/DemoBankingApp/JointAccountTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/test/java/DemoBankingApp/LoginTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/test/java/DemoBankingApp/MobilePaymentTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/test/java/DemoBankingApp/NavigationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/test/java/DemoBankingApp/OnlineAccountTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/test/java/DemoBankingApp/OnlinePaymentTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/test/java/DemoBankingApp/OnlineTransfersTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/test/java/DemoBankingApp/PaymentTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/test/java/DemoBankingApp/SavingAccountInterestTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/test/java/DemoBankingApp/SavingsAccountTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/test/java/DemoBankingApp/TransfersTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/test/java/DemoBankingApp/UserTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/src/test/java/DemoBankingApp/WirePaymentTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/target/surefire-reports/DemoBankingApp.OnlineAccountTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/real failure/target/surefire-reports/TEST-DemoBankingApp.OnlineAccountTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/DemoBankingApp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/GetAndRunTests.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/GetResultsFromAppsurify.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/PushResultsToAppsurify.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/RunTestsWithAppsurify.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/old results/TEST-com.example.project.Area10Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/old results/TEST-com.example.project.Area11Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/old results/TEST-com.example.project.Area12Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/old results/TEST-com.example.project.Area13Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/old results/TEST-com.example.project.Area14Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/old results/TEST-com.example.project.Area15Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/old results/TEST-com.example.project.Area16Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/old results/TEST-com.example.project.Area17Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/old results/TEST-com.example.project.Area18Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/old results/TEST-com.example.project.Area19Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/old results/TEST-com.example.project.Area1Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/old results/TEST-com.example.project.Area20Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/old results/TEST-com.example.project.Area2Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/old results/TEST-com.example.project.Area3Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/old results/TEST-com.example.project.Area4Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/old results/TEST-com.example.project.Area5Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/old results/TEST-com.example.project.Area6Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/old results/TEST-com.example.project.Area7Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/old results/TEST-com.example.project.Area8Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/old results/TEST-com.example.project.Area9Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/results/DemoBankingApp.OnlineAccountTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/results/TEST-DemoBankingApp.OnlineAccountTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/main/java/Accounts/CheckingAccount/File5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/main/java/Accounts/File2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/main/java/Accounts/JointAccount/File17.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/main/java/Accounts/OnlineAccounts/File1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/main/java/Accounts/OnlineAccounts/File1a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/main/java/BranchConfiguration/File6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/main/java/ChequeProcessing/File20.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/main/java/CreditCardApplication/File19.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/main/java/CreditCardInterestTests/File18.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/main/java/Navigation/File13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/main/java/Payments/ACHPayments/File4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/main/java/Payments/File3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/main/java/Payments/OnlinePayments/File14.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/main/java/Payments/OnlinePayments/MobilePaymentsTests/File15.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/main/java/Payments/WirePayments/File7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/main/java/SavingsAccount/File10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/main/java/SavingsAccount/SavingsAccountInterest/File9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/main/java/Transfers/File12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/main/java/Transfers/OnlineTransfters/File11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/main/java/User/File8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/main/java/User/Login/File16.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/test/java/DemoBankingApp/ACHPaymentTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/test/java/DemoBankingApp/AccountTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/test/java/DemoBankingApp/BranchConfigurationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/test/java/DemoBankingApp/CheckingAccountTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/test/java/DemoBankingApp/ChequeProcessingTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/test/java/DemoBankingApp/CreditCardApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/test/java/DemoBankingApp/CreditCardInterestTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/test/java/DemoBankingApp/JointAccountTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/test/java/DemoBankingApp/LoginTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/test/java/DemoBankingApp/MobilePaymentTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/test/java/DemoBankingApp/NavigationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/test/java/DemoBankingApp/OnlineAccountTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/test/java/DemoBankingApp/OnlinePaymentTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/test/java/DemoBankingApp/OnlineTransfersTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/test/java/DemoBankingApp/PaymentTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/test/java/DemoBankingApp/SavingAccountInterestTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/test/java/DemoBankingApp/SavingsAccountTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/test/java/DemoBankingApp/TransfersTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/test/java/DemoBankingApp/UserTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/src/test/java/DemoBankingApp/WirePaymentTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/target/surefire-reports/DemoBankingApp.OnlineAccountTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/second dev/target/surefire-reports/TEST-DemoBankingApp.OnlineAccountTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/DemoBankingApp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/GetAndRunTests.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/GetResultsFromAppsurify.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/PushResultsToAppsurify.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/RunTestsWithAppsurify.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/old results/TEST-com.example.project.Area10Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/old results/TEST-com.example.project.Area11Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/old results/TEST-com.example.project.Area12Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/old results/TEST-com.example.project.Area13Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/old results/TEST-com.example.project.Area14Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/old results/TEST-com.example.project.Area15Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/old results/TEST-com.example.project.Area16Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/old results/TEST-com.example.project.Area17Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/old results/TEST-com.example.project.Area18Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/old results/TEST-com.example.project.Area19Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/old results/TEST-com.example.project.Area1Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/old results/TEST-com.example.project.Area20Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/old results/TEST-com.example.project.Area2Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/old results/TEST-com.example.project.Area3Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/old results/TEST-com.example.project.Area4Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/old results/TEST-com.example.project.Area5Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/old results/TEST-com.example.project.Area6Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/old results/TEST-com.example.project.Area7Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/old results/TEST-com.example.project.Area8Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/old results/TEST-com.example.project.Area9Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/results/DemoBankingApp.OnlineAccountTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/results/TEST-DemoBankingApp.OnlineAccountTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/main/java/Accounts/CheckingAccount/File5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/main/java/Accounts/File2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/main/java/Accounts/JointAccount/File17.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/main/java/Accounts/OnlineAccounts/File1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/main/java/Accounts/OnlineAccounts/File1a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/main/java/BranchConfiguration/File6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/main/java/ChequeProcessing/File20.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/main/java/CreditCardApplication/File19.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/main/java/CreditCardInterestTests/File18.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/main/java/Navigation/File13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/main/java/Payments/ACHPayments/File4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/main/java/Payments/File3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/main/java/Payments/OnlinePayments/File14.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/main/java/Payments/OnlinePayments/MobilePaymentsTests/File15.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/main/java/Payments/WirePayments/File7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/main/java/SavingsAccount/File10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/main/java/SavingsAccount/SavingsAccountInterest/File9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/main/java/Transfers/File12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/main/java/Transfers/OnlineTransfters/File11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/main/java/User/File8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/main/java/User/Login/File16.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/test/java/DemoBankingApp/ACHPaymentTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/test/java/DemoBankingApp/AccountTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/test/java/DemoBankingApp/BranchConfigurationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/test/java/DemoBankingApp/CheckingAccountTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/test/java/DemoBankingApp/ChequeProcessingTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/test/java/DemoBankingApp/CreditCardApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/test/java/DemoBankingApp/CreditCardInterestTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/test/java/DemoBankingApp/JointAccountTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/test/java/DemoBankingApp/LoginTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/test/java/DemoBankingApp/MobilePaymentTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/test/java/DemoBankingApp/NavigationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/test/java/DemoBankingApp/OnlineAccountTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/test/java/DemoBankingApp/OnlinePaymentTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/test/java/DemoBankingApp/OnlineTransfersTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/test/java/DemoBankingApp/PaymentTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/test/java/DemoBankingApp/SavingAccountInterestTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/test/java/DemoBankingApp/SavingsAccountTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/test/java/DemoBankingApp/TransfersTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/test/java/DemoBankingApp/UserTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/src/test/java/DemoBankingApp/WirePaymentTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/target/surefire-reports/DemoBankingApp.OnlineAccountTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commits/tests pass defect closed/target/surefire-reports/TEST-DemoBankingApp.OnlineAccountTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DemoBankingApp/ACHPaymentTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DemoBankingApp/ACHPaymentTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DemoBankingApp/AccountTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DemoBankingApp/AccountTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DemoBankingApp/BranchConfigurationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DemoBankingApp/BranchConfigurationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DemoBankingApp/CheckingAccountTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DemoBankingApp/CheckingAccountTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DemoBankingApp/ChequeProcessingTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DemoBankingApp/ChequeProcessingTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DemoBankingApp/CreditCardApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DemoBankingApp/CreditCardApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DemoBankingApp/CreditCardInterestTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DemoBankingApp/CreditCardInterestTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DemoBankingApp/JointAccountTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DemoBankingApp/JointAccountTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DemoBankingApp/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DemoBankingApp/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DemoBankingApp/MobilePaymentTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DemoBankingApp/MobilePaymentTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DemoBankingApp/NavigationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DemoBankingApp/NavigationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DemoBankingApp/OnlinePaymentTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DemoBankingApp/OnlinePaymentTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DemoBankingApp/OnlineTransfersTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DemoBankingApp/OnlineTransfersTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DemoBankingApp/PaymentTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DemoBankingApp/PaymentTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DemoBankingApp/SavingAccountInterestTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DemoBankingApp/SavingAccountInterestTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DemoBankingApp/SavingsAccountTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DemoBankingApp/SavingsAccountTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DemoBankingApp/TransfersTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DemoBankingApp/TransfersTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DemoBankingApp/UserTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DemoBankingApp/UserTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DemoBankingApp/WirePaymentTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DemoBankingApp/WirePaymentTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/DemoBankingApp.ACHPaymentsTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/DemoBankingApp.AccountTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/DemoBankingApp.BranchConfigurationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/DemoBankingApp.CheckingAccountTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/DemoBankingApp.ChequeProcessingTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/DemoBankingApp.CreditCardApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/DemoBankingApp.CreditCardInterestTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/DemoBankingApp.JointAccountTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/DemoBankingApp.LoginTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/DemoBankingApp.LoginTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/DemoBankingApp.MobilePaymentsTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/DemoBankingApp.NavigationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/DemoBankingApp.OnlineAccountTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/DemoBankingApp.OnlinePaymentsTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/DemoBankingApp.OnlineTransfersTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/DemoBankingApp.PaymentsTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/DemoBankingApp.SavingsAccountInterestTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/DemoBankingApp.SavingsAccountTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/DemoBankingApp.TransfersTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/DemoBankingApp.UserTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/DemoBankingApp.WirePaymentsTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/DemoBankingApp.WirePaymentsTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DemoBankingApp.ACHPaymentsTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DemoBankingApp.AccountTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DemoBankingApp.BranchConfigurationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DemoBankingApp.CheckingAccountTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DemoBankingApp.ChequeProcessingTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DemoBankingApp.CreditCardApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DemoBankingApp.CreditCardInterestTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DemoBankingApp.JointAccountTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DemoBankingApp.LoginTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-DemoBankingApp.LoginTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DemoBankingApp.MobilePaymentsTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DemoBankingApp.NavigationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DemoBankingApp.OnlineAccountTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DemoBankingApp.OnlinePaymentsTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DemoBankingApp.OnlineTransfersTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DemoBankingApp.PaymentsTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DemoBankingApp.SavingsAccountInterestTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DemoBankingApp.SavingsAccountTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DemoBankingApp.TransfersTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DemoBankingApp.UserTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DemoBankingApp.WirePaymentsTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-DemoBankingApp.WirePaymentsTests.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -535,6 +1087,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Github\AppsurifyDemoRepo\src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="DemoBankingApp" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -730,6 +1285,17 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

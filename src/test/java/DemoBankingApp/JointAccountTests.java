@@ -36,10 +36,6 @@ class JointAccountTests {
 		}
 	}
 
-	@RepeatedTest(value = 12, name = "{displayName}")
-	public void JointAccountTest() {
-		addDelay();
-	}
 
 
 	@Test

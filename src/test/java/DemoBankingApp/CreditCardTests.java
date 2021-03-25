@@ -10,23 +10,17 @@
 
 package DemoBankingApp;
 
-import org.junit.jupiter.api.DisplayName;
+import CreditCards.CreditCard;
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.ValueSource;
-
-import static org.junit.jupiter.api.Assertions.fail;
-
-import static org.junit.Assert.*;
-import Accounts.CheckingAccount.*;
+import static org.junit.Assert.assertEquals;
 
 
-class CheckingAccountTests {
+class CreditCardTests {
 
 	static int i=0;
-	int waitTime = 125;
+	int waitTime = 1300;
 	
 	public void addDelay(){
 		try {
@@ -39,57 +33,57 @@ class CheckingAccountTests {
 
 
 	@Test
-	public void CheckingAccountTestDummyOne(){
+	public void CreditCardTestDummyOne(){
 		addDelay();
-		CheckingAccount testInstance = new CheckingAccount();
+		CreditCard testInstance = new CreditCard();
 		String result = testInstance.dummyMethod("test");
 		assertEquals("test", result);
 	}
 
 	@Test
-	public void CheckingAccountTestDummyTwo(){
+	public void CreditCardTestDummyTwo(){
 		addDelay();
-		CheckingAccount testInstance = new CheckingAccount();
+		CreditCard testInstance = new CreditCard();
 		String result = testInstance.dummyMethodTwo("test");
 		assertEquals("test", result);
 	}
 
 	@Test
-	public void CheckingAccountTestDummyThree(){
+	public void CreditCardTestDummyThree(){
 		addDelay();
-		CheckingAccount testInstance = new CheckingAccount();
+		CreditCard testInstance = new CreditCard();
 		String result = testInstance.dummyMethodThree("test");
 		assertEquals("test", result);
 	}
 
 	@Test
-	public void CheckingAccountTestDummyFour(){
+	public void CreditCardTestDummyFour(){
 		addDelay();
-		CheckingAccount testInstance = new CheckingAccount();
+		CreditCard testInstance = new CreditCard();
 		String result = testInstance.dummyMethodFour("test");
 		assertEquals("test", result);
 	}
 
 	@Test
-	public void CheckingAccountTestDummyFive(){
+	public void CreditCardTestDummyFive(){
 		addDelay();
-		CheckingAccount testInstance = new CheckingAccount();
+		CreditCard testInstance = new CreditCard();
 		String result = testInstance.dummyMethodFive("test");
 		assertEquals("test", result);
 	}
 
 	@Test
-	public void CheckingAccountTestDummySix(){
+	public void CreditCardTestDummySix(){
 		addDelay();
-		CheckingAccount testInstance = new CheckingAccount();
+		CreditCard testInstance = new CreditCard();
 		String result = testInstance.dummyMethodSix("test");
 		assertEquals("test", result);
 	}
 
 	@Test
-	public void CheckingAccountTestDummySeven(){
+	public void CreditCardTestDummySeven(){
 		addDelay();
-		CheckingAccount testInstance = new CheckingAccount();
+		CreditCard testInstance = new CreditCard();
 		String result = testInstance.dummyMethodSeven("test");
 		assertEquals("test", result);
 	}

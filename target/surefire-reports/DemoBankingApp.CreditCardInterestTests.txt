@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: DemoBankingApp.CreditCardInterestTests
--------------------------------------------------------------------------------
-Tests run: 44, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 77.08 s - in DemoBankingApp.CreditCardInterestTests

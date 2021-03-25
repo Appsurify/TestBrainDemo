@@ -36,10 +36,6 @@ class NavigationTests {
 		}
 	}
 
-	@RepeatedTest(value = 2, name = "{displayName}")
-	public void NavigationTest() {
-		addDelay();
-	}
 
 
 	@Test

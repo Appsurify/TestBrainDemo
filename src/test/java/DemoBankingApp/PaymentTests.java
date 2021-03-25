@@ -35,11 +35,6 @@ class PaymentsTests {
 		}
 	}
 
-	@RepeatedTest(value = 25, name = "{displayName}")
-	public void PaymentsTest() {
-		addDelay();
-	}
-
 
 	@Test
 	public void PaymentsTestDummyOne(){

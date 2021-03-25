@@ -36,10 +36,6 @@ class CreditCardApplicationTests {
 		}
 	}
 
-	@RepeatedTest(value = 1, name = "{displayName}")
-	public void CreditCardApplicationTest() {
-		addDelay();
-	}
 
 
 	@Test

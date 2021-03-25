@@ -94,8 +94,4 @@ class ACHPaymentsTests {
 		assertEquals("test", result);
 	}
 
-	@RepeatedTest(value = 1, name = "{displayName}")
-	public void ACHPaymentsTest() {
-		addDelay();
-	}
 }

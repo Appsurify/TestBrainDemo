@@ -37,10 +37,6 @@ class UserTests {
 		}
 	}
 
-	@RepeatedTest(value = 5, name = "{displayName}")
-	public void UserTest() {
-		addDelay();
-	}
 
 
 	@Test

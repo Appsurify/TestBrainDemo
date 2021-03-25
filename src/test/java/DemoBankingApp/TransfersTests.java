@@ -36,10 +36,6 @@ class TransfersTests {
 		}
 	}
 
-	@RepeatedTest(value = 71, name = "{displayName}")
-	public void TransfersTest() {
-		addDelay();
-	}
 
 
 	@Test

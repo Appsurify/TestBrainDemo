@@ -36,10 +36,6 @@ class MobilePaymentsTests {
 		}
 	}
 
-	@RepeatedTest(value = 15, name = "{displayName}")
-	public void MobilePaymentsTest() {
-		addDelay();
-	}
 
 
 	@Test

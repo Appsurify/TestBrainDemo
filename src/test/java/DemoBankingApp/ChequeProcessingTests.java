@@ -38,10 +38,6 @@ class ChequeProcessingTests {
 		}
 	}
 
-	@RepeatedTest(value = 56, name = "{displayName}")
-	public void ChequeProcessingTest() {
-		addDelay();
-	}
 
 
 	@Test

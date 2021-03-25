@@ -36,10 +36,6 @@ class LoginTests {
 		}
 	}
 
-	@RepeatedTest(value = 75, name = "{displayName}")
-	public void LoginTest() {
-		addDelay();
-	}
 
 
 	@Test

@@ -36,10 +36,6 @@ class SavingsAccountTests {
 		}
 	}
 
-	@RepeatedTest(value = 41, name = "{displayName}")
-	public void SavingsAccountTest() {
-		addDelay();
-	}
 
 
 	@Test

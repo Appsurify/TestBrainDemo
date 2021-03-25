@@ -93,8 +93,5 @@ class AccountTests {
 		assertEquals("test", result);
 	}
 
-	@RepeatedTest(value = 36, name = "{displayName}")
-	public void AccountTest() {
-		addDelay();
-	}
+
 }

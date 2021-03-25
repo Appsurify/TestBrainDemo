@@ -36,10 +36,6 @@ class OnlinePaymentsTests {
 		}
 	}
 
-	@RepeatedTest(value = 1, name = "{displayName}")
-	public void OnlinePaymentsTest() {
-		addDelay();
-	}
 
 
 	@Test

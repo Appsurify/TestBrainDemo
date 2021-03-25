@@ -36,10 +36,6 @@ class BranchConfigurationTests {
 		}
 	}
 
-	@RepeatedTest(value = 37, name = "{displayName}")
-	public void BranchConfigurationTest() {
-		addDelay();
-	}
 
 
 	@Test
