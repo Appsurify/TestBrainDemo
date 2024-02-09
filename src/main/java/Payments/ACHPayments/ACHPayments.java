@@ -6,7 +6,7 @@ import Payments.*;
  * Created by james on 24/05/2019.
  */
 public class ACHPayments {
-    int i=3;
+    int i=4;
     public String dummyMethod(String input){
         return input;
     }
